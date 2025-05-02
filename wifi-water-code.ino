@@ -5,10 +5,10 @@ char pass[] = "password";       //Enter your wifi password
 
 WiFiServer server(80);
 
-int IN1 = 2;
-int IN2 = 3;
-int Pin1 = A0;
-int Pin2 = A1;
+int IN1 = 2;                    //output going from arduino d2 to relay in1
+int IN2 = 3;                    //output going from arduino d3 to relay in2
+int Pin1 = A0;                  //sensor 1 signal pin to A0 on arduino
+int Pin2 = A1;                  //sensor 2 signal pin to A1 on arduino
 float value1 = 0;
 float value2 = 0;
 
